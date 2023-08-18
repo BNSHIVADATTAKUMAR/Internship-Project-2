@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rapsol Technologies Pvt Ltd- No.1 Web developer in Bangalore</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="event management,corporate events , events" />
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+    </style>
+</head>
+<body>
+  <header>
+    <nav class="navtop">
+      <ul class="navul">
+        <a href="#"><img " src="logo-white.jpeg" alt="Logo" class="logo"></a>
+        <li style ="padding: 1%;" class="navli"><a href="#" class="navlink">Home</a></li>
+        <li style ="padding: 1%;"class="navli"><a href="about.html" class="navlink">About Us</a></li>
+        <li style ="padding: 1%;" class="navli"><a href="trainingwebsite.html" class="navlink">Trainings</a></li>
+        <li style ="padding: 1%;" class="navli"><a href="services.html" class="navlink">Services</a></li>
+        <li style ="padding: 1%;" class="navli"><a href="career\career.html" class="navlink">Career</a></li>
+        
+        <li style="padding: 1%; list-style: none;" class="navlibtn">
+          <a class="navbtn" href="Contact.html">Contact Us</a>
+      </li>
+      
+      </ul>
+      
+    </nav>
+  </header>
+    
+    
+
+
+<!-- 
+Please note, that you can apply .m--global-blending-active to .fnc-slider 
+to enable blend-mode for all background-images or apply .m--blend-bg-active
+to some specific slides (.fnc-slide). It's disabled by default in this demo,
+because it requires specific images, where more than 50% of bg is transparent or monotone
+-->
+<div class="demo-cont">
+  <!-- slider start -->
+  <div class="fnc-slider example-slider">
+    <div class="fnc-slider__slides">
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-green m--active-slide">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span class="maintext">Black</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>Widow</span>
+              </div>
+            </h2>
+            
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-dark">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Captain</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>America</span>
+              </div>
+            </h2>
+          
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-red">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Iron</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>Man</span>
+              </div>
+            </h2>
+           
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+      <!-- slide start -->
+      <div class="fnc-slide m--blend-blue">
+        <div class="fnc-slide__inner">
+          <div class="fnc-slide__mask">
+            <div class="fnc-slide__mask-inner"></div>
+          </div>
+          <div class="fnc-slide__content">
+            <h2 class="fnc-slide__heading">
+              <div class="fnc-slide__heading-line">
+                <span>Thor</span>
+              </div>
+              <div class="fnc-slide__heading-line">
+                <span>Just Thor</span>
+              </div>
+            </h2>
+         
+          </div>
+        </div>
+      </div>
+      <!-- slide end -->
+    </div>
+    <nav class="fnc-nav">
+      <div class="fnc-nav__bgs">
+        <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+        <div class="fnc-nav__bg m--navbg-dark"></div>
+        <div class="fnc-nav__bg m--navbg-red"></div>
+        <div class="fnc-nav__bg m--navbg-blue"></div>
+      </div>
+      <div class="fnc-nav__controls">
+        <button class="fnc-nav__control">
+          Black Widow
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Captain America
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Iron Man
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+        <button class="fnc-nav__control">
+          Thor
+          <span class="fnc-nav__control-progress"></span>
+        </button>
+      </div>
+    </nav>
+  </div>
+  <!-- slider end -->
+  <d
+</div>
+    </section>
+    <script>
+      (function() {
+
+  var $$ = function(selector, context) {
+    var context = context || document;
+    var elements = context.querySelectorAll(selector);
+    return [].slice.call(elements);
+  };
+
+  function _fncSliderInit($slider, options) {
+    var prefix = ".fnc-";
+
+    var $slider = $slider;
+    var $slidesCont = $slider.querySelector(prefix + "slider__slides");
+    var $slides = $$(prefix + "slide", $slider);
+    var $controls = $$(prefix + "nav__control", $slider);
+    var $controlsBgs = $$(prefix + "nav__bg", $slider);
+    var $progressAS = $$(prefix + "nav__control-progress", $slider);
+
+    var numOfSlides = $slides.length;
+    var curSlide = 1;
+    var sliding = false;
+    var slidingAT = +parseFloat(getComputedStyle($slidesCont)["transition-duration"]) * 1000;
+    var slidingDelay = +parseFloat(getComputedStyle($slidesCont)["transition-delay"]) * 1000;
+
+    var autoSlidingActive = false;
+    var autoSlidingTO;
+    var autoSlidingDelay = 5000; // default autosliding delay value
+    var autoSlidingBlocked = false;
+
+    var $activeSlide;
+    var $activeControlsBg;
+    var $prevControl;
+
+    function setIDs() {
+      $slides.forEach(function($slide, index) {
+        $slide.classList.add("fnc-slide-" + (index + 1));
+      });
+
+      $controls.forEach(function($control, index) {
+        $control.setAttribute("data-slide", index + 1);
+        $control.classList.add("fnc-nav__control-" + (index + 1));
+      });
+
+      $controlsBgs.forEach(function($bg, index) {
+        $bg.classList.add("fnc-nav__bg-" + (index + 1));
+      });
+    };
+
+    setIDs();
+
+    function afterSlidingHandler() {
+      $slider.querySelector(".m--previous-slide").classList.remove("m--active-slide", "m--previous-slide");
+      $slider.querySelector(".m--previous-nav-bg").classList.remove("m--active-nav-bg", "m--previous-nav-bg");
+
+      $activeSlide.classList.remove("m--before-sliding");
+      $activeControlsBg.classList.remove("m--nav-bg-before");
+      $prevControl.classList.remove("m--prev-control");
+      $prevControl.classList.add("m--reset-progress");
+      var triggerLayout = $prevControl.offsetTop;
+      $prevControl.classList.remove("m--reset-progress");
+
+      sliding = false;
+      var layoutTrigger = $slider.offsetTop;
+
+      if (autoSlidingActive && !autoSlidingBlocked) {
+        setAutoslidingTO();
+      }
+    };
+
+    function performSliding(slideID) {
+      if (sliding) return;
+      sliding = true;
+      window.clearTimeout(autoSlidingTO);
+      curSlide = slideID;
+
+      $prevControl = $slider.querySelector(".m--active-control");
+      $prevControl.classList.remove("m--active-control");
+      $prevControl.classList.add("m--prev-control");
+      $slider.querySelector(prefix + "nav__control-" + slideID).classList.add("m--active-control");
+
+      $activeSlide = $slider.querySelector(prefix + "slide-" + slideID);
+      $activeControlsBg = $slider.querySelector(prefix + "nav__bg-" + slideID);
+
+      $slider.querySelector(".m--active-slide").classList.add("m--previous-slide");
+      $slider.querySelector(".m--active-nav-bg").classList.add("m--previous-nav-bg");
+
+      $activeSlide.classList.add("m--before-sliding");
+      $activeControlsBg.classList.add("m--nav-bg-before");
+
+      var layoutTrigger = $activeSlide.offsetTop;
+
+      $activeSlide.classList.add("m--active-slide");
+      $activeControlsBg.classList.add("m--active-nav-bg");
+
+      setTimeout(afterSlidingHandler, slidingAT + slidingDelay);
+    };
+
+
+
+    function controlClickHandler() {
+      if (sliding) return;
+      if (this.classList.contains("m--active-control")) return;
+      if (options.blockASafterClick) {
+        autoSlidingBlocked = true;
+        $slider.classList.add("m--autosliding-blocked");
+      }
+
+      var slideID = +this.getAttribute("data-slide");
+
+      performSliding(slideID);
+    };
+
+    $controls.forEach(function($control) {
+      $control.addEventListener("click", controlClickHandler);
+    });
+
+    function setAutoslidingTO() {
+      window.clearTimeout(autoSlidingTO);
+      var delay = +options.autoSlidingDelay || autoSlidingDelay;
+      curSlide++;
+      if (curSlide > numOfSlides) curSlide = 1;
+
+      autoSlidingTO = setTimeout(function() {
+        performSliding(curSlide);
+      }, delay);
+    };
+
+    if (options.autoSliding || +options.autoSlidingDelay > 0) {
+      if (options.autoSliding === false) return;
+      
+      autoSlidingActive = true;
+      setAutoslidingTO();
+      
+      $slider.classList.add("m--with-autosliding");
+      var triggerLayout = $slider.offsetTop;
+      
+      var delay = +options.autoSlidingDelay || autoSlidingDelay;
+      delay += slidingDelay + slidingAT;
+      
+      $progressAS.forEach(function($progress) {
+        $progress.style.transition = "transform " + (delay / 1000) + "s";
+      });
+    }
+    
+    $slider.querySelector(".fnc-nav__control:first-child").classList.add("m--active-control");
+
+  };
+
+  var fncSlider = function(sliderSelector, options) {
+    var $sliders = $$(sliderSelector);
+
+    $sliders.forEach(function($slider) {
+      _fncSliderInit($slider, options);
+    });
+  };
+
+  window.fncSlider = fncSlider;
+}());
+
+
+fncSlider(".example-slider", {autoSlidingDelay: 4000});
+
+var $demoCont = document.querySelector(".demo-cont");
+
+
+
+document.querySelector(".js-activate-global-blending").addEventListener("click", function() {
+  document.querySelector(".example-slider").classList.toggle("m--global-blending-active");
+});
+    </script>
+    
+
+</div>
+
+</body>
+
+<section class="s1" style="margin-top:2%;border-top:1px solid black;">
+  <div class="slider"></div>
+  <div id="app"></div>
+  <section><div class="animate">
+    <div class="bg-text-container">
+      <div class="animate-text">
+        <span class="marquee">Experience Excellence&nbsp;</span>
+        <span class="marquee">Experience Excellence&nbsp;</span>
+      </div>
+      <div class="animate-text left">
+        <span class="marquee">RAPSOL TECHNOLOGIES&nbsp;</span>
+        <span class="marquee">RAPSOL TECHNOLOGIES&nbsp;</span>
+      </div>
+    </div>
+    </div>
+    </section>
+  <script>
+    
+  /* Set width of all animated text to match container */
+  let parent = document.querySelectorAll('.animate-text');
+  for(let i = 0; i < parent.length; i++) {
+    parent[i].style.width = parent[i].children[0].clientWidth + "px"; 
+  };
+  </script></section>
+
+  
+  <section class="main" style="border:1px solid black;margin-top:3.3%;">
+
+    <div class="wrap wrap--1">
+      <div class="container container--1">
+        <p>01.client</p>
+      </div>
+    </div>
+  
+    <div class="wrap wrap--2">
+      <div class="container container--2">
+        <p>02. Client</p>
+      </div>
+    </div>
+  
+    <div class="wrap wrap--3">
+      <div class="container container--3">
+        <p>03. Client</p>
+      </div>
+    </div>
+    
+  
+  </section>
+  
+<script>// by
+
+  
+  class parallaxTiltEffect {
+  
+    constructor({element, tiltEffect}) {
+  
+      this.element = element;
+      this.container = this.element.querySelector(".container");
+      this.size = [300, 360];
+      [this.w, this.h] = this.size;
+  
+      this.tiltEffect = tiltEffect;
+  
+      this.mouseOnComponent = false;
+  
+      this.handleMouseMove = this.handleMouseMove.bind(this);
+      this.handleMouseEnter = this.handleMouseEnter.bind(this);
+      this.handleMouseLeave = this.handleMouseLeave.bind(this);
+      this.defaultStates = this.defaultStates.bind(this);
+      this.setProperty = this.setProperty.bind(this);
+      this.init = this.init.bind(this);
+  
+      this.init();
+    }
+  
+    handleMouseMove(event) {
+      const {offsetX, offsetY} = event;
+  
+      let X;
+      let Y;
+  
+      if (this.tiltEffect === "reverse") {
+        X = ((offsetX - (this.w/2)) / 3) / 3;
+        Y = (-(offsetY - (this.h/2)) / 3) / 3;
+      }
+  
+      else if (this.tiltEffect === "normal") {
+        X = (-(offsetX - (this.w/2)) / 3) / 3;
+        Y = ((offsetY - (this.h/2)) / 3) / 3;
+      }
+  
+      this.setProperty('--rY', X.toFixed(2));
+      this.setProperty('--rX', Y.toFixed(2));
+  
+      this.setProperty('--bY', (80 - (X/4).toFixed(2)) + '%');
+      this.setProperty('--bX', (50 - (Y/4).toFixed(2)) + '%');
+    }
+  
+    handleMouseEnter() {
+      this.mouseOnComponent = true;
+      this.container.classList.add("container--active");
+    }
+  
+    handleMouseLeave() {
+      this.mouseOnComponent = false;
+      this.defaultStates();
+    }
+  
+    defaultStates() {
+      this.container.classList.remove("container--active");
+      this.setProperty('--rY', 0);
+      this.setProperty('--rX', 0);
+      this.setProperty('--bY', '80%');
+      this.setProperty('--bX', '50%');
+    }
+  
+    setProperty(p, v) {
+      return this.container.style.setProperty(p, v);
+    }
+  
+    init() {
+      this.element.addEventListener('mousemove', this.handleMouseMove);
+      this.element.addEventListener('mouseenter', this.handleMouseEnter);
+      this.element.addEventListener('mouseleave', this.handleMouseLeave);
+    }
+  
+  }
+  
+  const $ = e => document.querySelector(e);
+  
+  const wrap1 = new parallaxTiltEffect({
+    element: $('.wrap--1'),
+    tiltEffect: 'reverse'
+  });
+  
+  const wrap2 = new parallaxTiltEffect({
+    element: $('.wrap--2'),
+    tiltEffect: 'normal'
+  });
+  
+  const wrap3 = new parallaxTiltEffect({
+    element: $('.wrap--3'),
+    tiltEffect: 'reverse'
+  });</script>
+  
+  <section >
+
+<div class="slider">
+  <ul>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%201" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%202" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%203" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%204" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%205" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%206" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%207" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%208" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%209" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2010" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2011" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2012" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2013" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2014" alt="">
+      </li>
+      <li>
+          <img src="https://via.placeholder.com/200?text=Logo%2015" alt="">
+      </li>
+  </ul>
+  </div>
+  </section>
+
+  <section style="border : 1px solid black">
+    <div class="containecard">
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                    <h3 style="color: #000000;">Website Design & Development</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                    <h3 style="color:black">Mechanical Engineering Services</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="face face1">
+                <div class="content">
+                    <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                    <h3 style="color:black" >Application Development</h3>
+                </div>
+            </div>
+            <div class="face face2">
+                <div class="content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                        <a href="#">Read More</a>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+      
+        
+      
+        
+    </div>
+    <div class="containecard">
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                  <h3 style="color: #000000;">Trainings (Inhouse and Corporate)</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/code_128.png?raw=true">
+                  <h3 style="color:black">Civil & Architectural Engineering Services</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="face face1">
+              <div class="content">
+                  <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                  <h3 style="color:black" >Internships</h3>
+              </div>
+          </div>
+          <div class="face face2">
+              <div class="content">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                      <a href="#">Read More</a>
+              </div>
+              
+          </div>
+          
+      </div>
+
+
+      
+  </div>
+   
+  </section>
+
+
+<!----->
+<footer class="new_footer_area bg_color">
+  <div  style="border:1px solid black;margin-top:4%" class="new_footer_top" >
+      <div class="">
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                      
+                      <form  " action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                          <input  style="border:1px solid black; padding:3.3%;" type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                          <button style="border:1px solid black;padding:3.3%" class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          <p class="mchimp-errmessage" style="display: none;"></p>
+                          <p class="mchimp-sucmessage" style="display: none;"></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                    
+                      <ul style="list-style-type:none" class="list-unstyled f_list">
+                          <li style=""><a href="#">Company</a></li>
+                          <li><a href="#">Android App</a></li>
+                          <li><a href="#">ios App</a></li>
+                          <li><a href="#">Desktop</a></li>
+                          <li><a href="#">Projects</a></li>
+                          <li><a href="#">My tasks</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                     
+                      <ul style="list-style-type:none"  class="list-unstyled f_list">
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Term &amp; conditions</a></li>
+                          <li><a href="#">Reporting</a></li>
+                          <li><a href="#">Documentation</a></li>
+                          <li><a href="#">Support Policy</a></li>
+                          <li><a href="#">Privacy</a></li>
+                      </ul>
+                  </div>
+              </div>
+             
+          </div>
+      </div>
+      <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+      </div>
+  </div>
+
+</footer>
+
+</html>
